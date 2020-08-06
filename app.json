@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "AmpleApp",
+    "slug": "AmpleApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ample",
+      "config": {
+        "googleMapsApiKey": "AIzaSyCsgeV577yQgRpW21aduD1XYkb3f_vThsg"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.ample",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyC8B3v3etv9Wg8TsLMV8DNLdQhX5wJNGYE"
+        }
+      }
+    }
+  }
+}
