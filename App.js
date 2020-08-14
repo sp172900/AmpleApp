@@ -8,8 +8,6 @@ import FindResourcesScreen from './screens/FindResourcesScreen';
 
 export default function App() {
 
-  // react native app
-
   const [option, setOption] = useState('');
   const [location, setLocation] = useState('');
   const [goToHome, setGoToHome] = useState(false);
